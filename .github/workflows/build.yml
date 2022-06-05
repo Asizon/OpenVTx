@@ -48,7 +48,7 @@ jobs:
 
     - name: Build
       run: |
-        platformio platform update
+        pio pkg update
         platformio platform install native
         cd src
         rm -rf .pio
